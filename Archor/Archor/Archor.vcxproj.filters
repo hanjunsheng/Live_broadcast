@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="INet">
+      <UniqueIdentifier>{45950e7b-7434-4a4d-a2fd-514244080558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMediator">
+      <UniqueIdentifier>{d6d5c722-35a3-4d05-9fd9-cca20c1f8c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PackDef">
+      <UniqueIdentifier>{2bb1605e-96b0-4ed8-97b8-9fdde9f1e631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFmpeg">
+      <UniqueIdentifier>{9cde93e8-f046-41b8-a8be-c65cd4e55dc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Archor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchorDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INet\INet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INet\TCPNet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INet\UDPNet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMediator\AbsIMediator.h">
+      <Filter>IMediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMediator\IMediator.h">
+      <Filter>IMediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PackDef\packdef.h">
+      <Filter>PackDef</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IPDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComBoxLogin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffmpeg\AudioEncode.h">
+      <Filter>FFmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffmpeg\MyEncode.h">
+      <Filter>FFmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffmpeg\Myffmpeg.h">
+      <Filter>FFmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffmpeg\CollectAudio.h">
+      <Filter>FFmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffmpeg\CollectDesk.h">
+      <Filter>FFmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ffmpeg\CollectCamera.h">
+      <Filter>FFmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Archor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchorDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INet\TCPNet.cpp">
+      <Filter>INet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INet\UDPNet.cpp">
+      <Filter>INet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMediator\AbsIMediator.cpp">
+      <Filter>IMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMediator\IMediator.cpp">
+      <Filter>IMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWnd.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IPDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComBoxLogin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffmpeg\AudioEncode.cpp">
+      <Filter>FFmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffmpeg\MyEncode.cpp">
+      <Filter>FFmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffmpeg\Myffmpeg.cpp">
+      <Filter>FFmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffmpeg\CollectAudio.cpp">
+      <Filter>FFmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffmpeg\CollectDesk.cpp">
+      <Filter>FFmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ffmpeg\CollectCamera.cpp">
+      <Filter>FFmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Archor.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Archor.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Archor.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿生成启动时间为 2017/4/11 16:37:38。
+     1>项目“E:\c\直播软件\弗莱英曼直播软件\Audience\Audience\Audience.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../INet /I../IMediator /I../PackDef /I../Audience /I../FFmpeg /I../include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Audience.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../INet /I../IMediator /I../PackDef /I../Audience /I../FFmpeg /I../include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Audience.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\FFmpeg\MyDecodevideo.cpp ..\IMediator\AbsIMediator.cpp ..\IMediator\IMediator.cpp ..\INet\TCPNet.cpp ..\INet\UDPNet.cpp Audience.cpp AudienceDlg.cpp ComBoxLogin.cpp FullScreenDlg.cpp GiftPicture.cpp IPDlg.cpp LoginDlg.cpp MainDlg.cpp MyWnd.cpp RegisDlg.cpp SelectDlg.cpp
+         SelectDlg.cpp
+         RegisDlg.cpp
+         MyWnd.cpp
+         MainDlg.cpp
+         LoginDlg.cpp
+         IPDlg.cpp
+         GiftPicture.cpp
+         FullScreenDlg.cpp
+         ComBoxLogin.cpp
+         AudienceDlg.cpp
+         Audience.cpp
+         UDPNet.cpp
+         TCPNet.cpp
+         IMediator.cpp
+         AbsIMediator.cpp
+         MyDecodevideo.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\Audience.res" Audience.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\c\直播软件\弗莱英曼直播软件\Audience\Debug\Audience.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib avcodec.lib avformat.lib avutil.lib avdevice.lib avfilter.lib postproc.lib swresample.lib swscale.lib SDL2.lib SDL2main.lib SDL2test.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\c\直播软件\弗莱英曼直播软件\Audience\Debug\Audience.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\c\直播软件\弗莱英曼直播软件\Audience\Debug\Audience.lib" /MACHINE:X86 Debug\Audience.res
+         Debug\MyDecodevideo.obj
+         Debug\AbsIMediator.obj
+         Debug\IMediator.obj
+         Debug\TCPNet.obj
+         Debug\UDPNet.obj
+         Debug\Audience.obj
+         Debug\AudienceDlg.obj
+         Debug\ComBoxLogin.obj
+         Debug\FullScreenDlg.obj
+         Debug\GiftPicture.obj
+         Debug\IPDlg.obj
+         Debug\LoginDlg.obj
+         Debug\MainDlg.obj
+         Debug\MyWnd.obj
+         Debug\RegisDlg.obj
+         Debug\SelectDlg.obj
+         Debug\stdafx.obj
+         LINK : 没有找到 E:\c\直播软件\弗莱英曼直播软件\Audience\Debug\Audience.exe 或上一个增量链接没有生成它；正在执行完全链接
+         Audience.vcxproj -> E:\c\直播软件\弗莱英曼直播软件\Audience\Debug\Audience.exe
+     1>已完成生成项目“E:\c\直播软件\弗莱英曼直播软件\Audience\Audience\Audience.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.19

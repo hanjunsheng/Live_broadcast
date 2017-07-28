@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PackDef">
+      <UniqueIdentifier>{68f8c956-6657-415b-bd49-3d3d03e03be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INet">
+      <UniqueIdentifier>{6568fe63-d551-42b1-a440-ff61f37f6d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMediator">
+      <UniqueIdentifier>{0f4e57df-3086-4257-8279-c3783b4bd130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADO">
+      <UniqueIdentifier>{0f06d4e4-53a7-4452-9cea-d03c6430eba0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INet\TCPNet.cpp">
+      <Filter>INet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INet\UDPNet.cpp">
+      <Filter>INet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMediator\AbsIMediator.cpp">
+      <Filter>IMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMediator\IMediator.cpp">
+      <Filter>IMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INet\MyThreadPool.cpp">
+      <Filter>INet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ado\MyDao.cpp">
+      <Filter>ADO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\INet\INet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INet\TCPNet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INet\UDPNet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PackDef\packdef.h">
+      <Filter>PackDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMediator\AbsIMediator.h">
+      <Filter>IMediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMediator\IMediator.h">
+      <Filter>IMediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INet\MyThreadPool.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ado\MyDao.h">
+      <Filter>ADO</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="INet">
+      <UniqueIdentifier>{c9039801-392e-45bc-aae5-c2bdb3743c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PackDef">
+      <UniqueIdentifier>{7eee6333-1fb6-46cf-b71a-0c5010aae556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMediator">
+      <UniqueIdentifier>{525ffc92-0749-4087-82e5-cdb8c6d25603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFmpeg">
+      <UniqueIdentifier>{1fc4ae46-a957-4b83-8eb1-5db8756a3e25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audience.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AudienceDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IPDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INet\INet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INet\TCPNet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INet\UDPNet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMediator\AbsIMediator.h">
+      <Filter>IMediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMediator\IMediator.h">
+      <Filter>IMediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PackDef\packdef.h">
+      <Filter>PackDef</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComBoxLogin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GiftPicture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FFmpeg\MyDecodevideo.h">
+      <Filter>FFmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="FullScreenDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audience.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AudienceDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IPDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INet\TCPNet.cpp">
+      <Filter>INet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\INet\UDPNet.cpp">
+      <Filter>INet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMediator\AbsIMediator.cpp">
+      <Filter>IMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMediator\IMediator.cpp">
+      <Filter>IMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComBoxLogin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GiftPicture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FFmpeg\MyDecodevideo.cpp">
+      <Filter>FFmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="FullScreenDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Audience.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Audience.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Audience.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\666.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\666大.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\飞机.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\飞机大.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\火箭.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\火箭大.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\弱鸡、.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\弱鸡大.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\鱼丸.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\鱼丸大.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\赞.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\赞大.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\弱鸡.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
